@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tdrbot.github.io - professional site</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #1a1a2e;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #162a41;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #4db8ff;
+      margin: 0;
+    }
+
+    nav a {
+      color: #e0e0e0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #4db8ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: #0f1c2d;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      color: #ffffff;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 50px 20px;
+    }
+
+    .project {
+      background-color: #162a41;
+      border-radius: 10px;
+      padding: 20px;
+      color: #e0e0e0;
+    }
+
+    .project img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #0f1c2d;
+      color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>tdrbot.github.io</h1>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>indie game development</h2>
+    <p>i do stuff like games and stuff. sometimes i do web development but don't get too hyped up, aight?</p>
+  </section>
+
+  <section id="about">
+    <h2>about tdrp (tdrbot)</h2>
+    <p>I'm an indie game developer creating games through coding and storytelling. I work in engines like Roblox, RPG Maker, and TurboWarp. Though I might use others</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="project">
+      <img src="https://img.itch.zone/aW1nLzE1MjgzODE0LnBuZw==/315x250%23c/WktxxT.png" alt="Project 1">
+      <h3>Physics Sandbox</h3>
+      <p>A small on-hold physics game I made, use normal to dynamic objects.</p>
+    </div>
+    <div class="project">
+      <img src="https://github.com/TDRBot/every-free-games-website/blob/034215a63de049d14a4011685cdb0e8e61f33f78/images/NighttaleThumbnail.png?raw=true" alt="Project 2">
+      <h3>Nighttale</h3>
+      <p>My take on the Undertale universe, with new characters and gameplay mechanics.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>Email me at: <a href="mailto:thedumbrobloxplayer@gmail.com">thedumbrobloxplayer@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 TDRBot (TDRP)</p>
+  </footer>
+
+</body>
+</html>
